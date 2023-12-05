@@ -3,8 +3,6 @@ pipeline {
 	triggers {
   pollSCM '* * * * *'
 }
-
-	 (pipeline)
 	stages {
 	    stage('Checkout') {
 	        steps {
